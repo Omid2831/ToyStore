@@ -47,28 +47,22 @@ const Header = () => {
                     <ul className="flex flex-row gap-6">
                         {/* Home  */}
                         <li className="list-none">
-                            <a>
-                                <span id="#home" className="text-black text-sm font-semibold cursor-pointer hover:text-blue-500 transition-all duration-200">
-                                    Home
-                                </span>
+                            <a href="#home" className="text-black text-sm font-semibold cursor-pointer hover:text-cyan-400 transition-all duration-200">
+                                Home
                             </a>
                         </li>
 
                         {/* Toys */}
                         <li className="list-none">
-                            <a>
-                                <span id="#toys" className="text-black text-sm font-semibold cursor-pointer hover:text-blue-500 transition-all duration-200">
-                                    Toys
-                                </span>
+                            <a href="#toys" className="text-black text-sm font-semibold cursor-pointer hover:text-cyan-400 transition-all duration-200">
+                                Toys
                             </a>
                         </li>
 
                         {/* Contact */}
                         <li className="list-none">
-                            <a>
-                                <span id="#contact" className="text-black text-sm font-semibold cursor-pointer hover:text-blue-500 transition-all duration-200">
-                                    Contact
-                                </span>
+                            <a href="#contact" className="text-black text-sm font-semibold cursor-pointer hover:text-cyan-400 transition-all duration-200">
+                                Contact
                             </a>
                         </li>
                     </ul>
@@ -81,27 +75,22 @@ const Header = () => {
                     <ul className="flex flex-col gap-4 border-t border-gray-200 pt-4">
                         {/* Home Dropdown - Mobile */}
                         <li className={`${divider} list-none`}>
-
-                            <span id="#home" className="text-black text-base font-semibold cursor-pointer hover:text-blue-500 transition-all duration-200">
+                            <a href="#home" className="text-black text-base font-semibold cursor-pointer hover:text-cyan-400 transition-all duration-200">
                                 Home
-                            </span>
+                            </a>
                         </li>
 
                         {/* Toys - Mobile */}
                         <li className={`${divider} list-none`}>
-                            <a className="block">
-                                <span id="#toys" className="text-black text-base font-semibold cursor-pointer hover:text-blue-500 transition-all duration-200">
-                                    Toys
-                                </span>
+                            <a href="#toys" className="text-black text-base font-semibold cursor-pointer hover:text-cyan-400 transition-all duration-200">
+                                Toys
                             </a>
                         </li>
 
                         {/* Contact - Mobile */}
                         <li className={`${divider} list-none`}>
-                            <a className="block">
-                                <span id="#contact" className="text-black text-base font-semibold cursor-pointer hover:text-blue-500 transition-all duration-200">
-                                    Contact
-                                </span>
+                            <a href="#contact" className="text-black text-base font-semibold cursor-pointer hover:text-cyan-400 transition-all duration-200">
+                                Contact
                             </a>
                         </li>
                     </ul>

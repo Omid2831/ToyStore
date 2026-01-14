@@ -5,7 +5,7 @@ const toyStoreData = [
     description:
       "A timeless wooden train set that boosts creativity and fine motor skills for kids aged 3+.",
     image:
-      "https://cdn.pixabay.com/photo/2016/11/18/12/52/train-1831743_1280.jpg",
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=400&q=80",
     link: "/toys/wooden-train",
     category: "Educational",
   },
@@ -15,7 +15,7 @@ const toyStoreData = [
     description:
       "High-speed RC racing car with long battery life and durable design for endless fun.",
     image:
-      "https://cdn.pixabay.com/photo/2016/03/27/21/16/car-1281640_1280.jpg",
+      "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=400&q=80",
     link: "/toys/rc-racing-car",
     category: "Electronic",
   },
@@ -25,7 +25,7 @@ const toyStoreData = [
     description:
       "Ultra-soft plush teddy bear, perfect for cuddles and comforting bedtime moments.",
     image:
-      "https://cdn.pixabay.com/photo/2017/08/01/08/29/teddy-bear-2568157_1280.jpg",
+      "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=400&q=80",
     link: "/toys/teddy-bear",
     category: "Plush",
 
