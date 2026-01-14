@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactList = () => {
   return (
-    <section className='w-full bg-[#f8f9fa] py-16 px-6 md:px-20 lg:mt-15'>
+    <section id="contact" className='w-full bg-[#f8f9fa] py-16 px-6 md:px-20 lg:mt-15'>
       <div className='max-w-6xl mx-auto'>
         {/** Header Section */}
         <header className='mb-10'>
