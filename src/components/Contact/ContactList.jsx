@@ -14,15 +14,24 @@ const ContactList = () => {
 
         {/** Content Grid */}
         <div className='flex flex-col md:flex-row gap-10 items-start'>
-          
-          {/** Left: Placeholder Box (Map) */}
-          <div className='w-full md:w-3/5 bg-[#dee2e6] h-64 md:h-80 rounded-sm'>
-            {/* This represents the gray box in your image */}
+
+          {/** Left: Map */}
+          <div className='w-full md:w-3/5 h-64 md:h-80 rounded-sm overflow-hidden'>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.5983142456!2d5.1214!3d52.0907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f5cf0744629%3A0xd26462bf1d7a8b92!2sUtrecht%2C%20Netherlands!5e0!3m2!1sen!2snl!4v1234567890"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="ToyStore Location"
+            />
           </div>
 
           {/** Right: Contact Info */}
           <div className='w-full md:w-2/5 flex flex-col gap-8'>
-            
+
             {/** Location */}
             <div>
               <h3 className='text-xl font-medium text-gray-800 mb-2'>Our Location</h3>
